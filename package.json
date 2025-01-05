@@ -15,10 +15,15 @@
     "next": "^14.2.22",
     "next-sanity": "^9.8.31",
     "next-themes": "^0.2.1",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
     "sanity": "^3.68.3",
     "styled-components": "^6.1.14"
+  },
+  "pnpm": {
+    "overrides": {
+      "@sanity/icons": "^3.5.7"
+    }
   },
   "devDependencies": {
     "@types/node": "^20",
